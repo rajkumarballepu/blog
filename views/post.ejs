@@ -1,0 +1,8 @@
+<%- include('./partials/header') %>
+    <% if(locals.post) { %>
+        <h1><%= post.title %></h1>
+        <p>
+            <%= post.description %>
+        </p>
+    <% }  %>
+<%- include('./partials/footer') %>
